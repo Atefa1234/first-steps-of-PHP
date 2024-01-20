@@ -109,6 +109,8 @@ echo "<br>";
 $num2 = 0 ;
 var_dump($num1);
 echo "<br>";
+//the above variables change the data type to Boolean and print in the new data type on the screen and console.
+//on the screen and console.
 $num1 = true;
 var_dump($num1);
 echo "<br>";
