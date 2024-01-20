@@ -91,5 +91,28 @@ echo str_word_count($programming) . "<br>";
 $php = "I am a backend language of programming";
 echo strrev($php) . "<br>";
 //Replace the word 'gato' in your original variable to 'Michi' and print to the screen.
-
+$animal = "Hello gato";
+echo str_replace("gato" , "Michi", $animal) . "<br>";
+//Declare two variables and give them an integer value and print both on the screen.
+$firstNum = 1;
+$secondNum =9;
+echo $firstNum . "<br>";
+echo $secondNum . "<br>";
+// Sum both integer variables and prints on the screen.
+$result = $firstNum + $secondNum ;
+echo $firstNum . "+" . $secondNum .  " = " .$result . "<br>" ;
+//Declare two variables and give them a value of 1 and 0 type integer and print the data type on the screen and
+//console
+$num1 = 1;
+var_dump($num1);
+echo "<br>";
+$num2 = 0 ;
+var_dump($num1);
+echo "<br>";
+$num1 = true;
+var_dump($num1);
+echo "<br>";
+$num2 = false;
+var_dump($num2);
+echo "<br>";
 ?>
